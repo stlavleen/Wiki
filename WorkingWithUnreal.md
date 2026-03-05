@@ -14,3 +14,7 @@
 2. In File explorer go to your project and move existing C++ class to another folder, then go to Binaries folder and remove content.
 3. In File explorer in your project folder right click on “.uproject” and choose “Generate Visual Studio files” to update Visual Studio project.
 4. Open Unreal Editor with your project, click “Yes”, and test your project.
+
+### Why C++ UENUM or USTRUCT are not shown in Content Browser of Unreal Editor.
+It works as designed. They should not be shown there, because they are not UObjects.
+https://forums.unrealengine.com/t/c-struct-is-not-showed-in-the-content-browser/439661  
