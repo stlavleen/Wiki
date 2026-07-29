@@ -17,4 +17,9 @@
 
 ### Why C++ UENUM or USTRUCT are not shown in Content Browser of Unreal Editor.
 It works as designed. They should not be shown there, because they are not UObjects.
-https://forums.unrealengine.com/t/c-struct-is-not-showed-in-the-content-browser/439661  
+https://forums.unrealengine.com/t/c-struct-is-not-showed-in-the-content-browser/439661
+
+### How to set Color Space of Metallic and Roughness textures to Non-Color. (UE 5.8)
+1. Select necessary textures (Roughness, Metallic) and Right Click on it.
+2. Asset Actions -> Edit Selection in Property Matrix.
+3. Uncheck sRGB.
